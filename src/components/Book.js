@@ -47,7 +47,7 @@ render() {
     } else {
         titleElement = <h5>{this.state.title}</h5>;
         bodyElement = <p>{this.state.body}</p>;
-        buttonArea = (<div><button className="btn btn-warning" onClick = {this.handleEdit.bind(this)}>Edit</button>
+        buttonArea = (<div> <button className="btn btn-warning" onClick = {this.handleEdit.bind(this)}>Edit</button>
                            <button className="btn btn-danger" onClick = {this.handleDelete.bind(this)}>Delete</button>
                         <form>
                             <label>
